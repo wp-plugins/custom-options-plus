@@ -17,13 +17,23 @@ Based on Custom Settings (Custom Configs)
 2. Activate the plugin.
 3. Configure the administration panel in Settings > Custom Options Plus and customize your options plus
 
-== Usage ==
 
-<?php echo get_custom('name'); //Used to single option ?>
+== Frequently Asked Questions ==
+= Used to single option =
+`<?php echo get_custom('name'); ?>`
 
-<?php 
-	$array = get_customs('array_name'); //Used to multiples options
+= Used to multiples options =
+`
+<?php
+	$array = get_customs('array_name');
 	foreach ($array as $name) :
 		echo $name;
 	endforeach;
 ?>
+`
+
+
+== Changelog ==
+
+= 1.0 =
+* First stable release version
