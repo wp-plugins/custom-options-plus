@@ -7,7 +7,7 @@ Tested up to: 3.8.1
 Stable tag: 1.2
 
 == Description == 
-With this plugin, you can enter your custom options datas. It is very easy to install and use. Even if you do not have expertise in PHP.
+	With this plugin, you can enter your custom options datas. It is very easy to install and use. Even if you do not have expertise in PHP.
 You can for example, register the address and phone numbers of your company to leave in the header of your site. So, if someday relocate, you do not need to change your theme. Just change administratively.
 You can also enter the login of your social networks. How to login twitter, Facebook, Youtube, contact email and more.
 Based on Custom Settings (Custom Configs)
@@ -37,3 +37,19 @@ Based on Custom Settings (Custom Configs)
 
 = 1.0 =
 * First stable release version
+
+
+= 1.1 =
+
+* Value field from varchar(255) to text
+
+* Correcting following suggestion by Andy Stratton in http://wordpress.org/support/topic/plugin-custom-options-plus-stripslashes-needed-on-submission-of-content?replies=1
+
+* New Layout using WP List Table
+
+
+= 1.2 =
+
+* New item button and UTF8 fixed bug
+
+* Tested up to WordPress 3.8.1
