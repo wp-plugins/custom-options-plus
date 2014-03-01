@@ -4,7 +4,7 @@ Donate link: http://leocaseiro.com.br/contato/
 Tags: configs, custom, custom configs, custom options, custom options plus, custom settings, leocaseiro, options, settings, wp_options
 Requires at least: 2.7
 Tested up to: 3.8.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 == Description == 
 	With this plugin, you can enter your custom options datas. It is very easy to install and use. Even if you do not have expertise in PHP.
@@ -53,3 +53,10 @@ Based on Custom Settings (Custom Configs)
 * New item button and UTF8 fixed bug
 
 * Tested up to WordPress 3.8.1
+
+
+= 1.3 =
+
+* Added automatic name generated from Label using jQuery stingToSlug Plugin
+
+* Added Banner Image for Promote the Plugin
