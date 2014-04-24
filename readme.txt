@@ -3,7 +3,7 @@ Contributors: leocaseiro
 Donate link: http://leocaseiro.com.br/contato/
 Tags: configs, custom, custom configs, custom options, custom options plus, custom settings, leocaseiro, options, settings, wp_options
 Requires at least: 2.7
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: 1.3
 
 == Description == 
