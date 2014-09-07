@@ -2,10 +2,10 @@
 /*
 Plugin Name: Custom Options Plus
 Plugin URI: https://github.com/leocaseiro/Wordpress-Plugin-Custom-Options-Plus
-Description: With this plugin, you can enter your custom options datas. It is very easy to install and use. Even if you do not have expertise in PHP.
+Description: Custom Options Plus is the easiest way to add your custom variables as a Settings Page for your Theme.
 You can for example, register the address and phone numbers of your company to leave in the header of your site. So, if someday relocate, you do not need to change your theme. Just change administratively.
 You can also enter the login of your social networks. How to login twitter, Facebook, Youtube, contact email and more.
-Version: 1.4
+Version: 1.4.1
 Author: Leo Caseiro
 Author URI: http://leocaseiro.com.br/
 */
@@ -236,7 +236,7 @@ function custom_options_plus_adm() {
 			<table class="form-table">				
 				<tbody>
 					<tr valign="top">
-						<th scope="row">
+						<td scope="row">
 							<label for="label">Label:</label>
 						</td>
 						<td>
@@ -244,7 +244,7 @@ function custom_options_plus_adm() {
 						</td>
 					</tr>
 					<tr>
-						<th scope="row">
+						<td scope="row">
 							<label for="name">*Name:</label>
 						</td>
 						<td>
@@ -252,7 +252,7 @@ function custom_options_plus_adm() {
 						</td>						
 					</tr>
 					<tr>
-						<th scope="row">
+						<td scope="row">
 							<label for="value">Value:</label>
 						</td>
 						<td>
